@@ -27,9 +27,13 @@
 nav .nav-list ul {     
     display: flex;
     justify-content: center;
-    list-style-type: none;
     gap: 20px;
 }
+
+ul {
+    list-style-type: none;
+}
+
 
 .bold {
     font-weight: bold;
@@ -62,10 +66,64 @@ nav .nav-list ul {
 }
 
 #heart-icon{
+    position: fixed;
     font-size: 40px;
     position: relative;
     bottom: 560px;
     left: 360px;
     background-color: white;
     padding: 3px 9px 3px 9px;
+}
+
+.label30 {
+    position: relative;
+    bottom: 80px;
+    right: 46px;
+    color: white;
+    background-color: red;
+    font-size: 0.7em;
+    padding: 3px 8px 3px 8px;
+}
+
+.label50 {
+    position: relative;
+    bottom: 80px;
+    right: 46px;
+    color: white;
+    background-color: red;
+    font-size: 0.7em;
+    padding: 3px 8px 3px 8px;
+}
+
+.green-label {
+    position: relative;
+    bottom: 80px;
+    right: 46px;
+    color: white;
+    background-color: green;
+    font-size: 0.7em;
+    padding: 3px 8px 3px 8px;
+}
+
+.footer-container ul li {
+    display: inline-block;
+    font-size: 0.7em;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #1a1a1a;
+    justify-content: space-around;
+    gap: 18em;
+    color: white;
+    height: 80px;
+}
+
+#socialicon {
+    background-color: white;
+    border-radius: 10%;
+    width: 18px;
+    padding: 2px;
 }
