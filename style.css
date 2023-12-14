@@ -41,3 +41,36 @@ nav .nav-list ul {
     list-style-type: none;
     gap: 20px;
 }
+
+#heart-icon {
+    font-size: 34px;
+    position: relative;
+    bottom: 440px;
+    left: 360px;
+    background-color: white;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#heart-icon:hover {
+    color: red;
+}
+
+
+section div img {
+    position: relative;
+    height: 500px;
+    padding: 20px;
+    left: 420px;
+}
+
+.img-container {
+    position: relative;
+    display: flex;
+    border: 1px red solid;
+    height: 500px;
+    width: auto;
+    gap: 20px;
+}
+    
