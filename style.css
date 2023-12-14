@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav {
+    border-bottom: 1px #9e9e9e;
+    box-shadow: 4px 8px 60px grey;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.logo {
+    width: 120px;
+}
+
+.container {
+    width: 100%;
+    background-color: #ff6900;
+}
+
+.nav-items {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.nav-icons {
+    filter: invert(100%);
+}
+
+nav .nav-list ul {     
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 20px;
+}
