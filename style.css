@@ -9,6 +9,7 @@
     width: 100%;
     background-color: #ff6900;
     position: fixed;
+    z-index: 1;
     box-shadow: 4px 8px 60px grey;
 }
 
