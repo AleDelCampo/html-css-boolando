@@ -44,7 +44,7 @@ ul {
     width: 120px;
 }
 
-.img-container {
+.img-container { 
     padding-top: 120px;
     display: flex;
     flex-direction: row;
@@ -150,4 +150,16 @@ ul {
 
 #dress {
     font-weight: bold;
+}
+
+.img-container .container .column-item img:nth-child(2) {
+    display: none;
+}
+
+.img-container .container .column-item:hover img:nth-child(1) {
+    display: none;
+}
+
+.img-container .container .column-item:hover img:nth-child(2) {
+    display: block;
 }
